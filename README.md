@@ -30,9 +30,10 @@
   </p>
 </p>
 
-<video width="300px" height="300px" controls>
-  <source src="https://cdn.discordapp.com/attachments/912004112021876797/936393532695011328/Desktop_2022.01.28_-_01.50.45.10_Trim_Trim.mp4">
+<video width="1366px" height="768px" controls>
+    <source src="https://cdn.discordapp.com/attachments/912004112021876797/936393532695011328/Desktop_2022.01.28_-_01.50.45.10_Trim_Trim.mp4">
 </video>
+
 
 ## 📝 Bot Yapımcısı
 
