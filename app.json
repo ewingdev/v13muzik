@@ -1,0 +1,61 @@
+{
+  "name": "ewing-muzik-botu",
+  "description": "Ewing sayesinde v13 müzik botu kullanabilirsiniz.",
+  "repository": "https://github.com/ewingdev/v13muzik",
+  "logo": "https://cdn.discordapp.com/attachments/936263362185166848/936273646710829156/ewing_1.png",
+  "keywords": ["discord", "discordjs", "music"],
+  "env": {    
+    "MONGO_URI": {
+     "description": "Your Mongo url",
+     "value": "MONGO URL",
+     "required": true
+    },
+    "NODE_HOST":{
+      "description":"lavalink host",
+      "value": "disbotlistlavalink.ml",
+      "required": true
+    },
+    "NODE_ID":{
+      "description":"lavalink ID",
+      "value": "main",
+      "required": true
+    },
+    "NODE_PORT":{
+      "description":"lavalink port",
+      "value": "443",
+      "required": true
+    },
+    "NODE_PASSWORD":{
+      "description":"lavalink password",
+      "value": "LAVA",
+      "required": true
+    },
+    "NODE_SECURE":{
+      "description":"lavalink secure (true/false)",
+      "value": "true",
+      "required": true
+    },
+    "PREFIX":{
+      "description": "your prefix",
+      "value": "!",
+      "required": true
+     },
+    "COlOR":{
+      "description": "embed colour code hex",
+      "value": "#660099",
+      "required": false
+     },
+    "LOGS":{
+      "description": "LOG KANALI İD",
+      "required": true
+     },
+    "OWNERID":{
+      "description": "İDNİZ",
+      "required": true
+     },
+    "TOKEN": {
+      "description": "TOKENİNİZ",
+      "required": true
+    }
+  }
+}
